@@ -5,9 +5,8 @@ export default component$(() => {
    return (
        <header class={styles.header}>
            <div class={styles.wrapper}>
-               <div style={styles.logowrap}>
-                   <a href="/" title="IZK DIGITAL; WEB DEVELOPMENT IN DENVER">IZK</a>
-               </div>
+
+               <a href="/" title="IZK DIGITAL; WEB DEVELOPMENT IN DENVER">IZK</a>
 
                <div class={styles.menu}>
                    <a href="/">Clients</a>

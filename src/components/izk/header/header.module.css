@@ -1,21 +1,37 @@
 header {
-    position: sticky;
-    top: 0;
+    position   : sticky;
+    top        : 0;
     background : rgba(255, 255, 255, 0.2)
 }
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-between;
+    padding         : 10px 20px;
+    flex-direction  : row;
+    flex-wrap       : nowrap;
+}
+
+.wrapper a {
+    color           : white;
+    padding         : 0 10px;
+    font-size       : 1rem;
+    text-decoration : none;
+    text-align      : center;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-content   : center;
 }
 
 .menu {
-    display : flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-between;
+    padding         : 20px;
+}
+
+.menu > a:last-of-type {
+    padding-right : 0;
 }
