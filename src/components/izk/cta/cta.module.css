@@ -5,7 +5,7 @@
 
 .special {
     background: linear-gradient(0deg, #54b3d6, #54b3d6) no-repeat right bottom / 0 var(--bg-h);
-    transition: background-size 350ms;
+    transition: background-size 350ms ease, color 100ms ease;
     --bg-h: 100%;
 }
 .special:hover {
