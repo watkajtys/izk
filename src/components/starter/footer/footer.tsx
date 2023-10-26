@@ -8,7 +8,7 @@ export default component$(() => {
   return (
     <footer>
       <div class="container">
-        <a href="/" target="_blank" class={styles.anchor}>
+        <a href="mailto:matty@hey.com" target="_blank" class={styles.anchor}>
           <span>Made with ♡ by IZK</span>
           <span class={styles.spacer}>|</span>
           <span>{serverTime.value.date}</span>
