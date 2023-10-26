@@ -13,7 +13,7 @@ export default component$(() => {
                     <a href="">Social</a>
                 </div>
             </div>
-            <div class={['center-center']}><a href="#" class={['hugetext', styles.special]}>Let's Chat</a></div>
+            <div class={['center-center']}><a href="mailto:matty@hey.com" class={['hugetext', styles.special]}>Let's Chat</a></div>
         </div>
     );
 });
