@@ -8,7 +8,7 @@
 }
 
 .special {
-    background: linear-gradient(0deg, var(--qwik-light-blue), var(--qwik-light-blue)) no-repeat right bottom / 0 100%;
+    background : linear-gradient(0deg, var(--izk-light-blue), var(--izk-light-blue)) no-repeat right bottom / 0 100%;
     transition: background-size 350ms ease, color 100ms ease;
 }
 .special:hover {
@@ -43,5 +43,5 @@
 }
 
 .brand {
-    background: var(--qwik-light-blue);
+    background : var(--izk-light-blue);
 }
