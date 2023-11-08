@@ -1,0 +1,47 @@
+.herocontainer {
+    background      : transparent;
+    padding         : 0 !important;
+    margin          : 0;
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    height          : calc(100vh - 55px);
+    position        : relative;
+    z-index         : 1;
+    overflow        : hidden;
+}
+
+.vertText {
+    /*absolutely position this to the right of the container*/
+    position : absolute;
+    top      : 10px;
+    right    : 135px;
+    display  : flex;
+}
+
+.hugeContainer {
+    position      : absolute;
+    bottom        : 55px;
+    width         : 100%;
+    border-bottom : 1px solid white;
+}
+
+.vertText h2 {
+    color            : white;
+    writing-mode     : sideways-lr;
+    text-orientation : mixed;
+    font-size        : 42px;
+    text-transform   : uppercase;
+    letter-spacing   : -1px;
+    text-align       : end;
+}
+
+.ktriangle {
+    width         : 0;
+    height        : 0;
+    border-top    : 50px solid transparent;
+    border-bottom : 50px solid transparent;
+    border-right  : 50px solid blue;
+}
