@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: var(--qwik-dark-background);
+  background: var(--izk-dark-background);
   color: var(--qwik-dark-text);
   overflow-x: hidden;
 }
@@ -39,7 +39,7 @@ h1 {
 }
 h1 .highlight,
 h3 .highlight {
-  color: var(--qwik-light-blue);
+  color: var(--izk-light-blue);
 }
 
 h2 {
@@ -52,6 +52,11 @@ h2 .highlight {
 
 h3 {
   font-size: 2rem;
+  font-weight: 100;
+}
+
+.spacer {
+  margin-top : 60px;
 }
 
 .hugetext {
@@ -61,6 +66,15 @@ h3 {
   text-transform: uppercase;
 }
 
+.massivetext {
+  font-size: 14rem;
+  line-height: 12rem;
+  margin: 20px 0;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: -4px;
+}
+
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 5rem;
@@ -68,15 +82,12 @@ h3 {
   h2 {
     font-size: 3.4rem;
   }
-  h3 {
-    font-size: 3rem;
-  }
 }
 
 /* TAGS ----------------------------------------- */
 a {
   text-decoration: none;
-  color: var(--qwik-light-blue);
+  color: var(--izk-light-blue);
 }
 
 code {
@@ -131,6 +142,10 @@ ul {
   align-items: center;
 }
 
+.section-wrapper {
+  padding: 120px 60px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding: 50px 80px;
@@ -148,7 +163,7 @@ ul {
 /* BUTTONS -------------------------------------- */
 a.button,
 button {
-  background: var(--qwik-light-blue);
+  background: var(--izk-light-blue);
   border: none;
   border-radius: 8px;
   color: white;
@@ -160,7 +175,7 @@ button {
 
 a.button.button-dark,
 button.button-dark {
-  background: var(--qwik-dirty-black);
+  background: var(--izk-dirty-black);
 }
 
 a.button.button-small,
