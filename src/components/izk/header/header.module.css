@@ -1,22 +1,25 @@
 header {
     position   : sticky;
     top        : 0;
-    background : rgba(255, 255, 255, 0.2)
+    background : white;
+    height     : 55px;
+    z-index    : 100;
 }
 
 .wrapper {
     display         : flex;
     align-items     : center;
     justify-content : space-between;
-    padding         : 10px 20px;
+    padding : 0;
     flex-direction  : row;
     flex-wrap       : nowrap;
+    height  : 100%;
 }
 
 .wrapper a {
-    color           : white;
+    color     : var(--izk-dirty-black);
     padding         : 0 10px;
-    font-size       : 1rem;
+    font-size : 1.25rem;
     text-decoration : none;
     text-align      : center;
     display         : flex;
@@ -29,9 +32,27 @@ header {
     display         : flex;
     align-items     : center;
     justify-content : space-between;
-    padding         : 20px;
+    padding : 0 20px;
 }
 
 .menu > a:last-of-type {
     padding-right : 0;
+}
+
+/*BOTTOM LINE ANIMATION*/
+
+.menu > a:after {
+    content          : "";
+    height           : 2px;
+    left             : 0;
+    transform        : scaleX(0);
+    transform-origin : bottom right;
+    transition       : transform .25s ease-out;
+    width            : 100%;
+    background-color : var(--izk-dark-blue);
+}
+
+.menu > a:hover:after {
+    transform        : scaleX(1);
+    transform-origin : bottom left;
 }
