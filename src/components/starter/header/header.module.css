@@ -34,7 +34,7 @@
 }
 
 .header li a:hover {
-  color: var(--qwik-light-blue);
+  color: var(--izk-light-blue);
 }
 
 @media (min-width: 450px) {
