@@ -110,3 +110,19 @@ By default, the Cloudflare pages adaptor _does not_ include a `public/_routes.js
 In the above example, it's saying _all_ pages should be SSR'd. However, the root static files such as `/favicon.ico` and any static assets in `/build/*` should be excluded from the Functions, and instead treated as a static file.
 
 In most cases the generated `dist/_routes.json` file is ideal. However, if you need more granular control over each path, you can instead provide you're own `public/_routes.json` file. When the project provides its own `public/_routes.json` file, then the Cloudflare adaptor will not auto-generate the routes config and instead use the committed one within the `public` directory.
+
+## Builder.io + Qwik
+
+An example of using [Builder.io's](https://www.builder.io/) visual editor with Qwik.
+
+See the catchall route at [src/routes/[...index]/index.tsx](src/routes/[...index]/index.tsx) for the integration code.
+
+Registered components can be found in [src/components/builder-registry.ts](src/components/builder-registry.ts)
+
+### Docs
+
+See our full integration guides [here](https://www.builder.io/c/docs/developers)
+
+Also, when you push your integration to production, go back and update your preview URL to your production URL so now anyone on your team can visuall create content in your Qwik app!
+
+Also, to integrate structured data, see [this guide](https://www.builder.io/c/docs/integrate-cms-data)
