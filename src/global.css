@@ -7,12 +7,13 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
+  --izk-dark-blue: #3A5683;
+  --izk-light-blue: #5FA8D3;
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #111;
-  --qwik-dark-background: #111;
+  --izk-dirty-black: #000;
+  --izk-dark-background: #111;
+  --qwik-dark-background: #0B0500;
   --qwik-dark-text: #ffffff;
   --color-dirty-black: #1d2033;
   --color-dark-background: #111;
