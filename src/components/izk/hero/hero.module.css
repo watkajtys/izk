@@ -45,3 +45,9 @@
     border-bottom : 50px solid transparent;
     border-right  : 50px solid blue;
 }
+
+@media screen and (max-width : 768px) {
+    .vertText {
+        display : none;
+    }
+}

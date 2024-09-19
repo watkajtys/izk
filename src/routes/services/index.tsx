@@ -1,7 +1,7 @@
 import {component$}        from "@builder.io/qwik";
 import type {DocumentHead} from "@builder.io/qwik-city";
 import TextHero            from "~/components/izk/texthero/texthero";
-import Services            from "~/components/izk/services/services";
+import {Services} from "~/components/izk/services/services";
 
 export default component$(() => {
     return (

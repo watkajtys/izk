@@ -9,11 +9,11 @@ export default component$(() => {
 
                <a href="/" title="IZK DIGITAL; WEB DEVELOPMENT IN DENVER">IZK</a>
 
-               <div class={styles.menu}>
-                   <a href="/services">What we Do</a>
-                   <a href="/">Clients</a>
-                   <a href="/">How we work</a>
-               </div>
+               {/*<div class={styles.menu}>*/}
+               {/*    <a href="/services">What we Do</a>*/}
+               {/*    <a href="/">Clients</a>*/}
+               {/*    <a href="/ourprocess">How we work</a>*/}
+               {/*</div>*/}
            </div>
        </header>
    )

@@ -10,9 +10,9 @@ export default component$(() => {
             </div>
 
             <div class={styles.vertText}>
-                <h2>Web Design & Development
-                    <br/>Brand Storytelling
-                    <br/>Creative</h2>
+                <h2>AI Impact & Culture
+                    <br/>Web Development
+                    <br/>Full Service</h2>
             </div>
         </div>
     )

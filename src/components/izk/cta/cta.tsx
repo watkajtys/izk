@@ -7,11 +7,11 @@ export default component$(() => {
         <div class={styles.grid}>
             <div class={[styles.grid, styles.flip, styles.brand]}>
                 <div class={['center-center']}><h2 class={'hugetext'}>IZK</h2></div>
-                <div class={[styles.socialcontainer, 'container','container-flex-vertical']}>
-                    <a href="">Social</a>
-                    <a href="">Social</a>
-                    <a href="">Social</a>
-                </div>
+                {/*<div class={[styles.socialcontainer, 'container','container-flex-vertical']}>*/}
+                {/*    <a href="">Social</a>*/}
+                {/*    <a href="">Social</a>*/}
+                {/*    <a href="">Social</a>*/}
+                {/*</div>*/}
             </div>
             <div class={['center-center']}><a href="mailto:matty@hey.com" class={['hugetext', styles.special]}>Let's Chat</a></div>
         </div>

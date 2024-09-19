@@ -1,0 +1,43 @@
+.textHeroContainer {
+    background      : transparent;
+    padding         : 0 !important;
+    margin          : 0;
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    height          : calc(100vh - 55px);
+    position        : relative;
+    z-index         : 1;
+    overflow        : hidden;
+}
+
+.textHeroContainerSwapped {
+    color           : black;
+    background      : white;
+    padding         : 0 !important;
+    margin          : 0;
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    height          : calc(100vh - 55px);
+    position        : relative;
+    z-index         : 1;
+    overflow        : hidden;
+
+    .hugeContainer {
+        border-bottom : 1px solid black;
+        color         : black !important;
+    }
+
+}
+
+.hugeContainer {
+    position      : absolute;
+    bottom        : 55px;
+    width         : 100%;
+    border-bottom : 1px solid white;
+}

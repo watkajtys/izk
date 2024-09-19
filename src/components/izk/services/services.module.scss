@@ -1,0 +1,61 @@
+.caption {
+    width : 60%;
+}
+
+.servicesWrapper {
+    position       : relative;
+    display        : flex;
+    flex-direction : row;
+
+    .serviceImage {
+        height     : 60vh;
+        left       : 0;
+        position   : sticky;
+        top        : 20vh;
+        width      : 50%;
+        align-self : flex-start;
+    }
+
+    .serviceText {
+        width : 50%;
+    }
+}
+
+.serviceSection {
+    padding : 10vh 0;
+
+    h4 {
+        font-size     : 2.5rem;
+        font-weight   : 400;
+        margin-bottom : 1rem;
+    }
+
+    p {
+        font-size   : 1.5rem;
+        line-height : 2.25rem;
+        font-weight : 100;
+    }
+
+    ul {
+        list-style : none;
+        margin     : 0;
+        padding    : 0;
+
+        li {
+            margin-bottom : 1rem;
+            font-size     : 1.5rem;
+
+            &::before {
+                display               : inline-block;
+                content               : '';
+                -webkit-border-radius : 0.375rem;
+                border-radius         : 0.375rem;
+                height                : 0.75rem;
+                width                 : 0.75rem;
+                margin-right          : 0.5rem;
+                margin-bottom         : 3px;
+                background-color      : #BDBDBD;
+            }
+        }
+    }
+}
